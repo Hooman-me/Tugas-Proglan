@@ -8,7 +8,7 @@ CXXFLAGS = -std=c++11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = myapp
+APPNAME = MyApp
 EXT = .cpp
 SRCDIR = src
 OBJDIR = obj
@@ -42,8 +42,12 @@ $(APPNAME): $(OBJ)
 # Includes all .h files
 -include $(DEP)
 
+# Create obj directory
+$(OBJDIR):
+	mkdir -p $(OBJDIR)
+
 # Building rule for .o files and its .c/.cpp in combination with all .h
-$(OBJDIR)/%.o: $(SRCDIR)/%$(EXT)
+$(OBJDIR)/%.o: $(SRCDIR)/%$(EXT) | $(OBJDIR)
 	$(CC) $(CXXFLAGS) -o $@ -c $<
 
 ################### Cleaning rules for Unix-based OS ###################
