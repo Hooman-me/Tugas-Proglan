@@ -1,1 +1,5 @@
 # Buat Laporan di Sini
+# A first-level heading
+Laporan tugas pertama
+
+Dalam tugas pertama ini saya belajar cara menggunakan github, pertama tama saya menginstall git terlebih dahulu dan membuat akun github juga membuat repository baru, setelah itu saya mendownload file tugas dari classroom. dalam tugas ini saya menggunakan cout dan cin untuk memberi input dan output, untuk variable nama saya menggunakan getline agar lebih optimal daripada pakai cin saja, saya juga telah melakukan tugas tambahan yaitu mengubah "myapp" menjadi "MyApp" di _Makefile_. Setelah itu saya melakukan beberapa perintah git agar bisa tersambung ke repository github dan bisa melakukan push pull file, contoh perintah: git init, git remote add origin, git add ., git commit -m,dll. Setelah tugas berhasil di push ke repository, saya membagikan link repository ke classroom.
