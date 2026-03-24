@@ -42,6 +42,7 @@ int main(int argc, char ** argv)
     cout << "Input tanggal dalam format DD/MM/YYYY:";
     cin >> inputstr;
     stringstream ss(inputstr);
+
     ss >> dayinput >> ch >> monthinput >> ch >> yearinput;
 
     // silahkan uncomment untuk debugging
