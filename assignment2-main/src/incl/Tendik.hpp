@@ -8,11 +8,11 @@ using namespace std;
 namespace Sim {
     class Tendik : public Orang {
     private:
-        string nip;
-        string unit_kerja;
+        string npp;
+        string fungsi;
 
     public:
-        Tendik(string id, string nama, string nip, string unit_kerja);
+        Tendik(string nik, string nama, string npp, string fungsi);
         void tampilkanInfo() const override;
     };
 }

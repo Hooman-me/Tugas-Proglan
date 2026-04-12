@@ -1,10 +1,10 @@
-#include "include/Orang.hpp"
+#include "incl/Orang.hpp"
 using namespace std;
 
 namespace Sim {
-    Orang::Orang(string id, string nama) : id(id), nama(nama) {}
+    Orang::Orang(string nik, string nama) : nik(nik), nama(nama) {}
 
     void Orang::tampilkanInfo() const {
-        cout << "ID   : " << id << "\nNama : " << nama << endl;
+        cout << "NIK   : " << nik << "\nNama : " << nama << endl;
     }
 }

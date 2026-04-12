@@ -7,11 +7,11 @@ using namespace std;
 namespace Sim {
     class Dosen : public Orang {
     private:
-        string nidn;
-        string keahlian;
+        string nip;
+        string lab;
 
     public:
-        Dosen(string id, string nama, string nidn, string keahlian);
+        Dosen(string nik, string nama, string nip, string lab);
         void tampilkanInfo() const override;
     };
 }

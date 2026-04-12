@@ -9,7 +9,7 @@ using namespace std;
 namespace Sim {
     class Orang {
     protected:
-        string id;
+        string nik;
         string nama;
 
     public:
